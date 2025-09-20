@@ -63,7 +63,7 @@ const CONFIG = {
     ],
 
     // Event Rules and Guidelines
-rules: {
+rulesContent: {
   title: "RCERT Garba Night Event Guidelines",
   event_details: {
     "Organized by": "RCERT Students’ Committee",
