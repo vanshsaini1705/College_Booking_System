@@ -63,7 +63,6 @@ const CONFIG = {
     ],
 
     // Event Rules and Guidelines
-    // Paste this entire block in place of the old one
 rules: {
   title: "RCERT Garba Night Event Guidelines",
   event_details: {
@@ -129,12 +128,20 @@ rules: {
     }
   ],
   event_coordinators: [
-    {"name": "Rohit Sharma", "contact": "88754 45062"},
-    {"name": "Harsh Sharma", "contact": "90799 34306"},
-    {"name": "Vansh Saini", "contact": "98877 99990"}
+    {
+      "name": "Rohit Sharma",
+      "contact": "88754 45062"
+    },
+    {
+      "name": "Harsh Sharma",
+      "contact": "90799 34306"
+    },
+    {
+      "name": "Vansh Saini",
+      "contact": "98877 99990"
+    }
   ]
-},
-
+}
     // UI Assets
     ui: {
         heroBackground: "assets/Header_image.png",
