@@ -10,6 +10,7 @@ class GarbaNightWebsite {
         this.setupEventListeners();
     }
 
+    
     // Initialize countdown timer
     initializeCountdown() {
         if (!CONFIG.features?.enableCountdown) return;
