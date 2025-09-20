@@ -28,7 +28,7 @@ const CONFIG = {
         phone: {
             "Vansh Saini": "+91 9887799990",
             "Rohit Sharma": "+91 8875445062", 
-            "Event Coordinator": "+91 9079934306"
+            "Harsh Sharma": "+91 9079934306"
         }
     },
 
@@ -63,43 +63,82 @@ const CONFIG = {
     ],
 
     // Event Rules and Guidelines
-    rules: {
-        title: "Event Rules & Guidelines",
-        content: [
-            {
-                category: "Dress Code",
-                rules: [
-                    "Traditional Indian attire is mandatory",
-                    "Chaniya Choli for girls, Kurta-Dhoti/Pajama for boys",
-                    "Comfortable footwear recommended for dancing",
-                    "Avoid heavy jewelry that might cause injury"
-                ]
-            },
-            {
-                category: "Entry Guidelines",
-                rules: [
-                    "Entry only with valid ticket and ID proof",
-                    "Gates open at 5:30 PM",
-                    "No re-entry after leaving the venue",
-                    "Ticket must be presented at entry"
-                ]
-            },
-            {
-                category: "Safety Rules",
-                rules: [
-                    "No outside food or beverages allowed",
-                    "Emergency exits must be kept clear",
-                    "Report any suspicious activity to security",
-                    "Follow COVID-19 safety protocols if applicable"
-                ]
-            }
-        ]
+    // Paste this entire block in place of the old one
+rules: {
+  title: "RCERT Garba Night Event Guidelines",
+  event_details: {
+    "Organized by": "RCERT Students’ Committee",
+    "Date": "Friday, 26 September 2025",
+    "Time": "6:00 PM to 9:00 PM",
+    "Venue": "College Ground",
+    "Entry": "ID is mandatory (Aadhar ID, College ID etc.)"
+  },
+  categories: [
+    {
+      category: "General Rules",
+      rules: [
+        "Entry is permitted only for college students and invited guests with valid ID cards/passes.",
+        "Outside food, drinks, or any prohibited substances are strictly not allowed.",
+        "Maintain discipline and decorum inside the campus at all times.",
+        "Respect cultural values—traditional attire is encouraged.",
+        "Photography and videography are allowed, but avoid obstructing the performance area."
+      ]
     },
+    {
+      category: "Dress Code",
+      rules: [
+        "Traditional/ethnic wear is mandatory (Chaniya Choli, Kurta Pajama, Kediyu, etc.).",
+        "Avoid wearing sharp jewelry or accessories that may cause injury while dancing.",
+        "Comfortable footwear recommended."
+      ]
+    },
+    {
+      category: "Dance Floor Guidelines",
+      rules: [
+        "Only registered participants are allowed on the dance floor.",
+        "Follow the circle movement of Garba/Dandiya; avoid pushing or rushing.",
+        "No rough play, misbehavior, or unsafe dance steps.",
+        "Use college-provided dandiya sticks only (if applicable).",
+        "Outsiders must carry their own dandiya sticks.",
+        "Report any accidents or injuries immediately to the event volunteers."
+      ]
+    },
+    {
+      category: "Safety & Security",
+      rules: [
+        "Security personnel and volunteers will be present for crowd management.",
+        "First-aid and medical support will be available at the venue.",
+        "Any form of harassment, misconduct, or misbehavior will lead to strict disciplinary action."
+      ]
+    },
+    {
+      category: "Participation & Competitions",
+      rules: [
+        "Competitions like Best Garba Dancer, Best Traditional Dress, and Best Couple Performance will be held.",
+        "Participants must register in advance with the Student Committee.",
+        "Judges’ decisions will be final."
+      ]
+    },
+    {
+      category: "Additional Notes",
+      rules: [
+        "Carry your college ID card at all times.",
+        "Keep the venue clean—use dustbins provided.",
+        "Enjoy responsibly, and let’s make this Garba Night a safe, fun, and memorable celebration!"
+      ]
+    }
+  ],
+  event_coordinators: [
+    {"name": "Rohit Sharma", "contact": "88754 45062"},
+    {"name": "Harsh Sharma", "contact": "90799 34306"},
+    {"name": "Vansh Saini", "contact": "98877 99990"}
+  ]
+},
 
     // UI Assets
     ui: {
         heroBackground: "assets/Header_image.png",
-        collegeImage: "assets/college_pic.png",
+        collegeImage: "assets/College_pic.png",
         rulesImage: "assets/Rules&Guidelines.png"
     },
 
